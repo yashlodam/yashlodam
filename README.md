@@ -25,7 +25,7 @@
 ```yaml
 name       : Yash Lodam
 location   : Nashik, India 📍
-education  : B.E. (Honours in Data Science) — Final Year
+education  : B.E.(Computer Engineering)
 role       : Java Full Stack Developer
 focus      : Spring Boot · React.js · REST APIs · Microservices
 status     : Open to opportunities 🟢
