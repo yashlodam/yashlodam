@@ -100,7 +100,7 @@ An IoT-based system for automated waste classification and cloud reporting.
 
 <p align="center">
   <a href="https://git.io/streak-stats">
-    <img src="https://streak-stats.demolab.com?user=yashlodam&theme=tokyonight&hide_border=true" />
+    <img src="https://streak-stats.demolab.com?user=yashlodam&theme=tokyonight&hide_border=true&date_format=M%20j%5B%2C%20Y%5D" />
   </a>
 </p>
 
