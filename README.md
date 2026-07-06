@@ -94,8 +94,8 @@ An IoT-based system for automated waste classification and cloud reporting.
 ## 📊 GitHub Stats
 
 <p align="center">
-  <img height="180" src="https://github-readme-stats.vercel.app/api?username=yashlodam&show_icons=true&theme=tokyonight&hide_border=true" alt="Yash's GitHub stats" />
-  <img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=yashlodam&layout=compact&theme=tokyonight&hide_border=true" alt="Top languages" />
+  <img height="180" src="./assets/github-stats.svg" alt="Yash's GitHub stats" />
+  <img height="180" src="./assets/top-langs.svg" alt="Top languages" />
 </p>
 
 <p align="center">
