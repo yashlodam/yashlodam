@@ -9,8 +9,8 @@
 
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=yashlodam&style=for-the-badge&color=0e75b6" alt="Profile views" />
-  <a href="https://www.linkedin.com/in/YOUR-LINKEDIN"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
-  <a href="mailto:YOUR-EMAIL"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a>
+  <a href="https://www.linkedin.com/in/YOUR-LINKEDIN"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+  <a href="mailto:YOUR-EMAIL"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
 </p>
 
 ---
@@ -94,28 +94,20 @@ An IoT-based system for automated waste classification and cloud reporting.
 ## 📊 GitHub Stats
 
 <p align="center">
-  <img height="180" src="https://github-readme-stats.vercel.app/api?username=yashlodam&show_icons=true&theme=tokyonight&hide_border=true" />
-  <img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=yashlodam&layout=compact&theme=tokyonight&hide_border=true" />
+  <img height="180" src="https://github-readme-stats.vercel.app/api?username=yashlodam&show_icons=true&theme=tokyonight&hide_border=true" alt="Yash's GitHub stats" />
+  <img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=yashlodam&layout=compact&theme=tokyonight&hide_border=true" alt="Top languages" />
 </p>
 
 <p align="center">
-  <a href="https://git.io/streak-stats">
-    <img src="https://streak-stats.demolab.com?user=yashlodam&theme=tokyonight&hide_border=true&date_format=M%20j%5B%2C%20Y%5D" />
-  </a>
+  <img src="https://streak-stats.demolab.com/?user=yashlodam&theme=tokyonight&hide_border=true" alt="GitHub streak stats" />
 </p>
 
 <p align="center">
-  <a href="https://github.com/ryo-ma/github-profile-trophy">
-    <img src="https://github-profile-trophy.vercel.app/?username=yashlodam&theme=tokyonight&no-frame=true&margin-w=10&margin-h=10" />
-  </a>
+  <img src="https://github-profile-trophy.vercel.app/?username=yashlodam&theme=tokyonight&no-frame=true&margin-w=10&margin-h=10" alt="GitHub trophies" />
 </p>
 
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=yashlodam&theme=tokyo-night&hide_border=true" />
-</p>
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/yashlodam/yashlodam/output/github-contribution-grid-snake-dark.svg" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=yashlodam&theme=tokyo-night&hide_border=true" alt="Contribution activity graph" />
 </p>
 
 ---
@@ -124,7 +116,7 @@ An IoT-based system for automated waste classification and cloud reporting.
 
 - 📧 Email: **YOUR-EMAIL@example.com**
 - 💼 LinkedIn: **https://linkedin.com/in/YOUR-LINKEDIN**
-- 🌐 Portfolio: **https://YOUR-PORTFOLIO.com**
+- 🌐 Portfolio: **https://yash-lodam-portfolio.vercel.app** *(dummy link — swap for your real one later)*
 - 💻 GitHub: **https://github.com/yashlodam**
 
 <p align="center"><b>Code • Learn • Build • Repeat</b></p>
