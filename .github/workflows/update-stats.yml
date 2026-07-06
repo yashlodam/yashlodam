@@ -19,15 +19,31 @@ jobs:
         run: mkdir -p assets
 
       - name: Fetch GitHub Stats card
-        run: curl -sf "https://github-readme-stats.vercel.app/api?username=yashlodam&show_icons=true&theme=tokyonight&hide_border=true" -o assets/github-stats.svg
+        run: curl -sf "https://github-readme-stats.vercel.app/api?username=yashlodam&show_icons=true&theme=tokyonight&hide_border=true" -o assets/github-stats.svg.tmp
 
       - name: Fetch Top Languages card
-        run: curl -sf "https://github-readme-stats.vercel.app/api/top-langs/?username=yashlodam&layout=compact&theme=tokyonight&hide_border=true" -o assets/top-langs.svg
+        run: curl -sf "https://github-readme-stats.vercel.app/api/top-langs/?username=yashlodam&layout=compact&theme=tokyonight&hide_border=true" -o assets/top-langs.svg.tmp
+
+      - name: Validate fetched cards (reject rate-limit/error responses)
+        run: |
+          for f in assets/github-stats.svg.tmp assets/top-langs.svg.tmp; do
+            if ! grep -q "<svg" "$f" || grep -qi "error\|rate limit\|something went wrong" "$f"; then
+              echo "::warning::$f looks invalid or rate-limited, keeping previous snapshot"
+              rm -f "$f"
+            fi
+          done
+
+      - name: Replace snapshots only if new ones are valid
+        run: |
+          [ -f assets/github-stats.svg.tmp ] && mv assets/github-stats.svg.tmp assets/github-stats.svg
+          [ -f assets/top-langs.svg.tmp ] && mv assets/top-langs.svg.tmp assets/top-langs.svg
 
       - name: Commit and push if changed
         run: |
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
           git add assets/github-stats.svg assets/top-langs.svg
-          git diff --staged --quiet || git commit -m "chore: refresh GitHub stats snapshot"
+          git diff --staged --quiet && exit 0
+          git commit -m "chore: refresh GitHub stats snapshot"
+          git pull --rebase
           git push
