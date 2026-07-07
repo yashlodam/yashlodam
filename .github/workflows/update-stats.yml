@@ -2,8 +2,8 @@ name: Update GitHub Stats Snapshot
 
 on:
   schedule:
-    - cron: '0 0 * * *'   # runs once a day at midnight UTC
-  workflow_dispatch:        # lets you trigger it manually from the Actions tab
+    - cron: "0 0 * * *" # Every day at 00:00 UTC
+  workflow_dispatch:
 
 permissions:
   contents: write
@@ -11,39 +11,59 @@ permissions:
 jobs:
   update-stats:
     runs-on: ubuntu-latest
+
     steps:
-      - name: Checkout repo
+      - name: Checkout Repository
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - name: Create assets folder
         run: mkdir -p assets
 
-      - name: Fetch GitHub Stats card
-        run: curl -sf "https://github-readme-stats.vercel.app/api?username=yashlodam&show_icons=true&theme=tokyonight&hide_border=true" -o assets/github-stats.svg.tmp
-
-      - name: Fetch Top Languages card
-        run: curl -sf "https://github-readme-stats.vercel.app/api/top-langs/?username=yashlodam&layout=compact&theme=tokyonight&hide_border=true" -o assets/top-langs.svg.tmp
-
-      - name: Validate fetched cards (reject rate-limit/error responses)
+      - name: Download GitHub Stats
         run: |
-          for f in assets/github-stats.svg.tmp assets/top-langs.svg.tmp; do
-            if ! grep -q "<svg" "$f" || grep -qi "error\|rate limit\|something went wrong" "$f"; then
-              echo "::warning::$f looks invalid or rate-limited, keeping previous snapshot"
-              rm -f "$f"
+          curl -L --fail \
+          "https://github-readme-stats.vercel.app/api?username=yashlodam&show_icons=true&theme=tokyonight&hide_border=true" \
+          -o assets/github-stats.svg.tmp
+
+      - name: Download Top Languages
+        run: |
+          curl -L --fail \
+          "https://github-readme-stats.vercel.app/api/top-langs/?username=yashlodam&layout=compact&theme=tokyonight&hide_border=true" \
+          -o assets/top-langs.svg.tmp
+
+      - name: Validate SVG files
+        run: |
+          for file in assets/github-stats.svg.tmp assets/top-langs.svg.tmp
+          do
+            if grep -qiE "rate limit|error|something went wrong" "$file"; then
+              echo "Invalid SVG detected."
+              exit 1
             fi
+
+            grep -q "<svg" "$file"
           done
 
-      - name: Replace snapshots only if new ones are valid
+      - name: Replace old snapshots
         run: |
-          [ -f assets/github-stats.svg.tmp ] && mv assets/github-stats.svg.tmp assets/github-stats.svg
-          [ -f assets/top-langs.svg.tmp ] && mv assets/top-langs.svg.tmp assets/top-langs.svg
+          mv assets/github-stats.svg.tmp assets/github-stats.svg
+          mv assets/top-langs.svg.tmp assets/top-langs.svg
 
-      - name: Commit and push if changed
+      - name: Commit changes
         run: |
-          git config --global user.name 'github-actions[bot]'
-          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
-          git add assets/github-stats.svg assets/top-langs.svg
-          git diff --staged --quiet && exit 0
-          git commit -m "chore: refresh GitHub stats snapshot"
-          git pull --rebase
-          git push
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add assets/
+
+          if git diff --cached --quiet; then
+            echo "No changes."
+            exit 0
+          fi
+
+          git commit -m "chore: update GitHub stats"
+
+      - name: Push changes
+        run: |
+          git push origin HEAD:${{ github.ref_name }}
