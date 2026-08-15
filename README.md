@@ -1,9 +1,14 @@
 # Hi, I'm Yash Lodam 👋
 
-### Java Full Stack Developer — Spring Boot · React.js · PostgreSQL · AI Engineering
+### Java Full Stack Developer · Spring Boot · React.js · PostgreSQL · AI Engineering
 
-Building backend systems with Java and Spring Boot, full-stack applications with React,
-and exploring AI engineering through Spring AI and Retrieval-Augmented Generation (RAG).
+I build full-stack applications and backend systems with Java and Spring Boot, create
+modern interfaces with React.js, and explore AI engineering with Spring AI, RAG, vector
+search, and LLM tool calling.
+
+My focus is on building software with clean architecture, secure APIs, reliable
+persistence, and maintainable code — while continuously expanding toward microservices,
+system design, and AI-powered applications.
 
 <br/>
 
@@ -18,169 +23,417 @@ and exploring AI engineering through Spring AI and Retrieval-Augmented Generatio
 
 <br/>
 
-## About Me
+## 👨‍💻 About Me
 
-I'm a Computer Engineering student (SPPU, graduating 2027) focused on backend
-development with Java and Spring Boot, paired with React on the frontend. My work
-centers on building complete, layered applications — authentication, REST APIs,
-persistence, and increasingly, AI-integrated features using Spring AI and RAG pipelines.
+I'm a Computer Engineering student at SPPU, graduating in 2027, with a primary focus on
+Java backend and full-stack development.
 
-I care about writing code that reflects real engineering discipline: clean layered
-architecture, sensible API design, and systems that are actually testable and
-maintainable — not just demo-ready.
+I enjoy building applications from the ground up — designing APIs, modeling databases,
+implementing authentication and business logic, connecting frontend and backend systems,
+and integrating AI capabilities where they provide real value.
 
-My current direction:
+**What I'm focused on**
 
-```text
-Java → Spring Boot → REST APIs → JPA / Hibernate → PostgreSQL / MySQL
-  → Spring Security / JWT → React.js → Microservices
-  → Spring AI / RAG → AI-powered applications → System Design
-```
+- ☕ Java & Spring Boot backend development
+- 🔐 Spring Security, JWT & OTP authentication
+- 🌐 REST API & full-stack application development
+- ⚛️ React.js frontend development
+- 🗄️ PostgreSQL, MySQL & MariaDB
+- 🤖 Spring AI, RAG & LLM integrations
+- 🧩 Microservices & distributed systems
+- 🏗️ System design & scalable backend architecture
+- 🧠 Data Structures & Algorithms
 
 <br/>
 
-## Core Technology Stack
+## 🛠️ Tech Stack
 
 **Languages**
 `Java` `JavaScript` `C++` `SQL`
 
 **Backend**
-`Spring Boot` `Spring MVC` `Spring Data JPA` `Hibernate` `Spring Security`
-`JWT & OTP Authentication` `REST APIs` `Layered Architecture` `DTO-based API Design`
+`Spring Boot` `Spring MVC` `Spring Data JPA` `Hibernate`
+`Spring Security` `JWT` `OTP` `REST APIs` `Maven`
 
 **Frontend**
-`React.js` `HTML5` `CSS3` `Tailwind CSS` `Bootstrap` `jQuery`
+`React.js` `JavaScript` `HTML5` `CSS3`
+`Tailwind CSS` `Bootstrap` `jQuery`
 
 **Databases**
 `PostgreSQL` `MySQL` `MariaDB`
 
 **AI / GenAI**
-`Spring AI` `Google Gemini` `RAG` `Vector Stores` `Embeddings` `Chat Memory` `Tool Calling`
+`Spring AI` `Google Gemini` `RAG`
+`Vector Stores` `Embeddings` `Chat Memory` `Tool Calling`
 
 **Tools**
-`Git & GitHub` `Docker` `Postman` `Maven` `VS Code` `Eclipse / STS`
+`Git` `GitHub` `Docker` `Postman` `VS Code` `Eclipse / STS`
 
 <br/>
 
-## Featured Projects
+## 🚀 Featured Projects
 
-### ShopSphere — Multi-Vendor E-Commerce Platform
+### 🛒 ShopSphere — Multi-Vendor E-Commerce Platform
 
-A full-stack e-commerce application supporting both customer and seller flows, built
-with a layered Spring Boot backend and a React frontend.
+A full-stack multi-vendor e-commerce platform designed around separate customer and
+seller workflows, with a layered Spring Boot backend and React frontend.
 
-- Customer and seller authentication with JWT and OTP verification
-- Seller dashboard with business details, product management, and order analytics
-- Product catalog with category, price, color, and size filtering
-- Cart, checkout, and order lifecycle handling
-- Payment integration across Razorpay, Stripe, and cash-on-delivery
+**Key Engineering Areas**
+
+- Customer and seller authentication
+- JWT-based authorization
+- OTP verification
+- Seller and business management
+- Product and category management
+- Product search and filtering
+- Price, size, color and category filtering
+- Cart and cart-item management
+- Order and order-item processing
+- Seller-specific order processing
+- Razorpay payment integration
+- Cash-on-delivery workflow
+- PostgreSQL persistence
+
+**Architecture**
 
 ```text
-React (Redux Toolkit, MUI, Tailwind) → REST API → Spring Boot
-   → Service Layer → Repository → PostgreSQL
+┌──────────────────────┐
+│      React.js        │
+│  Redux · Tailwind    │
+└──────────┬───────────┘
+           │
+           ▼
+┌──────────────────────┐
+│      REST APIs       │
+│     Spring Boot      │
+└──────────┬───────────┘
+           │
+           ▼
+┌──────────────────────┐
+│    Service Layer     │
+│   Business Logic     │
+└──────────┬───────────┘
+           │
+           ▼
+┌──────────────────────┐
+│  Repository / JPA    │
+│      Hibernate       │
+└──────────┬───────────┘
+           │
+           ▼
+┌──────────────────────┐
+│     PostgreSQL       │
+└──────────────────────┘
 ```
 
-**Stack:** Java · Spring Boot · Spring Security · JWT · React · Redux Toolkit · PostgreSQL · JPA/Hibernate
+**Stack:** `Java` · `Spring Boot` · `Spring Security` · `JWT` · `React` · `Redux Toolkit` · `PostgreSQL` · `JPA/Hibernate`
 
 ---
 
-### AI HelpDesk — AI-Powered Support System
+### 🤖 AI HelpDesk — AI-Powered Support System
 
-A full-stack customer support system where an AI assistant can create, retrieve, and
-update support tickets through natural conversation, backed by a persistent chat memory.
+A full-stack customer support platform where an AI assistant can interact with
+application data through Spring AI tool calling. The goal is to move beyond a simple
+chatbot and allow the model to perform meaningful application operations through
+controlled backend tools.
 
-- Conversational support chatbot with memory across sessions
-- Ticket creation, retrieval, and updates driven through Spring AI tool calling
-- Database-aware AI interactions grounded in real ticket data
-- Modern chat interface built with React and Tailwind CSS
+**Key Engineering Areas**
+
+- Conversational AI support
+- Persistent conversation memory
+- Ticket creation through AI tools
+- Ticket retrieval
+- Ticket updates
+- Database-aware AI interactions
+- Spring AI tool calling
+- Google Gemini integration
+- React chat interface
+- PostgreSQL persistence
+
+**Architecture**
 
 ```text
-React Chat UI → Spring Boot → ChatClient → Spring AI
-   → Google Gemini → AI Tools → Ticket Service → PostgreSQL
+┌──────────────────────┐
+│    React Chat UI     │
+└──────────┬───────────┘
+           │
+           ▼
+┌──────────────────────┐
+│     Spring Boot      │
+│      ChatClient      │
+└──────────┬───────────┘
+           │
+           ▼
+┌──────────────────────┐
+│      Spring AI       │
+│   Chat Memory + AI   │
+└──────────┬───────────┘
+           │
+           ▼
+┌──────────────────────┐
+│    Google Gemini     │
+└──────────┬───────────┘
+           │
+       Tool Calling
+           │
+           ▼
+┌──────────────────────┐
+│    Ticket Service    │
+└──────────┬───────────┘
+           │
+           ▼
+┌──────────────────────┐
+│     PostgreSQL       │
+└──────────────────────┘
 ```
 
-**Stack:** Java · Spring Boot · Spring AI · Google Gemini · React · Tailwind CSS · PostgreSQL
+**Stack:** `Java` · `Spring Boot` · `Spring AI` · `Google Gemini` · `React` · `Tailwind CSS` · `PostgreSQL`
 
 ---
 
-### Spring RAG — Retrieval-Augmented Generation Application
+### 🧠 Spring RAG — Retrieval-Augmented Generation
 
-A Spring Boot application exploring RAG: grounding LLM responses in retrieved documents
-rather than relying on the model's parametric knowledge alone.
+A Spring Boot application exploring how Retrieval-Augmented Generation can ground LLM
+responses in application-specific knowledge. Instead of relying only on the model's
+internal knowledge, the system retrieves relevant information from a vector store and
+provides that context to the LLM.
 
-- Document ingestion and embedding generation via Gemini's embedding models
-- Similarity search over a MariaDB vector store
-- Conversation-aware responses using `ChatClient`, `ChatMemory`, and `QuestionAnswerAdvisor`
-- Dockerized vector store setup for local development
+**Key Concepts**
+
+- Document ingestion
+- Embedding generation
+- Vector storage
+- Similarity search
+- RAG pipelines
+- Chat memory
+- Conversation IDs
+- `ChatClient`
+- `MessageChatMemoryAdvisor`
+- `QuestionAnswerAdvisor`
+- VectorStore integration
+- Dockerized MariaDB vector infrastructure
+
+**Architecture**
 
 ```text
-User → Spring Boot API → ChatClient → RAG Pipeline → Vector Store
-   → Similarity Search → Relevant Documents → LLM → Response
+              User
+                │
+                ▼
+        ┌───────────────┐
+        │  Spring Boot  │
+        └───────┬───────┘
+                │
+                ▼
+          ┌───────────┐
+          │ ChatClient│
+          └─────┬─────┘
+                │
+                ▼
+          ┌───────────┐
+          │ RAG Layer │
+          └─────┬─────┘
+                │
+                ▼
+        ┌───────────────┐
+        │ Vector Store  │
+        │    MariaDB    │
+        └───────┬───────┘
+                │
+         Similarity Search
+                │
+                ▼
+        Relevant Documents
+                │
+                ▼
+             LLM
+                │
+                ▼
+            Response
 ```
 
-**Stack:** Spring Boot · Spring AI · Google Gemini · MariaDB Vector Store · Docker
+**Stack:** `Spring Boot` · `Spring AI` · `Google Gemini` · `RAG` · `MariaDB Vector Store` · `Docker`
 
 ---
 
-### Velora — AI-Powered Job Platform
+### 💼 Velora — AI-Powered Job Platform
 
-A full-stack job platform focused on job discovery, recruiter workflows, and a modern,
-responsive interface.
+A full-stack job platform focused on job discovery, recruiter workflows, candidate
+profiles, and modern user experience.
 
-- Job and location-based search with a dedicated search-focused UI
-- Recruiter and candidate-facing flows, including profile and resume handling
-- Dark-themed, animation-driven interface built with Mantine and Tailwind CSS
+**Key Areas**
+
+- Job discovery and search
+- Location-based search
+- Candidate workflows
+- Recruiter workflows
+- Profile management
+- Resume-oriented features
+- Modern responsive interface
+- Component-based React architecture
+- AI-powered feature exploration
+
+**Frontend Architecture**
 
 ```text
-React (Mantine, Tailwind, Framer Motion) → REST API → Spring Boot → PostgreSQL
+React
+ │
+ ├── Mantine UI
+ ├── Tailwind CSS
+ ├── Framer Motion
+ └── React Router
+ │
+ ▼
+REST APIs
+ │
+ ▼
+Spring Boot
+ │
+ ▼
+PostgreSQL
 ```
 
-**Stack:** React · Tailwind CSS · Java · Spring Boot · PostgreSQL
+**Stack:** `React` · `Tailwind CSS` · `Mantine` · `Framer Motion` · `Java` · `Spring Boot` · `PostgreSQL`
 
 <br/>
 
-## AI Engineering Focus
+## 🏗️ Engineering Approach
 
-Beyond individual projects, I'm building a working understanding of how AI integrates
-into backend systems rather than treating it as a black box:
+I try to approach projects as software systems, not just collections of features.
 
-- Retrieval-Augmented Generation (RAG) pipelines and vector search
-- Embeddings and similarity-based retrieval
-- Chat memory and multi-turn conversational context
-- AI tool calling for grounding LLM actions in real application data
-- Spring AI as the integration layer between Spring Boot and LLM providers
+**Backend**
+
+```text
+Controller
+    ↓
+Service
+    ↓
+Repository
+    ↓
+Database
+```
+
+**Core principles**
+
+- Separation of concerns
+- Layered architecture
+- RESTful API design
+- Secure authentication and authorization
+- Database relationship modeling
+- Transaction management
+- Centralized exception handling
+- Validation
+- Reusable components
+- Maintainable code
+- Meaningful naming
+- Version control with Git
+
+As I progress, I'm extending this foundation toward:
+
+```text
+Monolith
+   ↓
+Modular Architecture
+   ↓
+Microservices
+   ↓
+Distributed Systems
+   ↓
+Scalable Architecture
+```
 
 <br/>
 
-## Currently Learning
+## 🤖 AI Engineering
 
-**System Design** — scalability, caching, load balancing, service discovery, message
-queues, and fault-tolerant distributed systems.
+My interest in AI is focused on integrating AI into real software systems, rather than
+treating an LLM as a standalone chatbot. I'm currently working with concepts including:
 
-**Spring Boot (deepening)** — transactions, validation, microservices, and production
-concerns beyond CRUD.
+- Retrieval-Augmented Generation
+- Vector search
+- Embeddings
+- Conversational memory
+- LLM tool calling
+- AI-assisted application workflows
+- Spring AI
+- Google Gemini
+- AI agents
+- AI-powered backend architecture
 
-**AI Engineering** — AI agents, expanding RAG architectures, and AI-powered backend
-design patterns.
+The direction I'm exploring:
+
+```text
+LLM
+ ↓
+Context
+ ↓
+Retrieval
+ ↓
+Tools
+ ↓
+Application Data
+ ↓
+Business Logic
+ ↓
+Useful Software
+```
 
 <br/>
 
-## Problem Solving
+## 📚 Currently Learning
 
-I practice Data Structures and Algorithms in Java, working through arrays, strings,
-hashing, linked lists, trees, graphs, and dynamic programming — currently at 57+
-problems solved on LeetCode with a 68%+ acceptance rate.
+**☕ Java & Spring**
+- Advanced Java
+- Spring Boot
+- Spring Security
+- JPA & Hibernate
+- Transactions
+- Validation
+- Microservices
+- Production-oriented backend development
+
+**🏗️ System Design**
+- Scalability
+- Load balancing
+- Caching
+- API gateways
+- Service discovery
+- Message queues
+- Distributed systems
+- Fault tolerance
+- Database design
+- Observability
+
+**🤖 AI Engineering**
+- Advanced RAG architectures
+- AI agents
+- Tool-based AI systems
+- AI application architecture
+- LLM integration patterns
 
 <br/>
 
-## Education
+## 🧠 Problem Solving
 
-**B.E. Computer Engineering** — Savitribai Phule Pune University (SPPU)
-Late G. N. Sapkal College of Engineering, Nashik · Expected 2027
+I practice Data Structures & Algorithms in Java to strengthen problem-solving and
+algorithmic thinking.
+
+Current areas include:
+`Arrays` · `Strings` · `Hashing` · `Searching` · `Sorting` · `Linked Lists` · `Stacks` · `Queues` · `Trees` · `Graphs` · `Dynamic Programming`
+
+**LeetCode:** 57+ problems solved · 68%+ acceptance rate · 20-day maximum streak
 
 <br/>
 
-## Certifications
+## 🎓 Education
+
+**B.E. Computer Engineering**
+Savitribai Phule Pune University (SPPU)
+Late G. N. Sapkal College of Engineering, Nashik
+Expected Graduation: 2027
+
+<br/>
+
+## 🏆 Certifications
 
 - Google Cloud Arcade Facilitator
 - NPTEL Certification
@@ -188,7 +441,7 @@ Late G. N. Sapkal College of Engineering, Nashik · Expected 2027
 
 <br/>
 
-## GitHub Statistics
+## 📊 GitHub Activity
 
 <p align="center">
   <img height="165" src="https://github-readme-stats.vercel.app/api?username=yashlodam&show_icons=true&theme=default&hide_border=true&count_private=true" />
@@ -201,7 +454,7 @@ Late G. N. Sapkal College of Engineering, Nashik · Expected 2027
 
 <br/>
 
-## Connect With Me
+## 🌐 Connect With Me
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](YOUR_LINKEDIN_URL)
 [![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=flat-square&logo=vercel&logoColor=white)](YOUR_PORTFOLIO_URL)
