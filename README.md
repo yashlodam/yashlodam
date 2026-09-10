@@ -1,465 +1,190 @@
-# Hi, I'm Yash Lodam 👋
+<div align="center">
 
-### Java Full Stack Developer · Spring Boot · React.js · PostgreSQL · AI Engineering
+# Yash Lodam
 
-I build full-stack applications and backend systems with Java and Spring Boot, create
-modern interfaces with React.js, and explore AI engineering with Spring AI, RAG, vector
-search, and LLM tool calling.
+### Java Full Stack Developer
 
-My focus is on building software with clean architecture, secure APIs, reliable
-persistence, and maintainable code — while continuously expanding toward microservices,
-system design, and AI-powered applications.
+Computer Engineering Undergraduate | Spring Boot & React.js | AI-Integrated Web Applications
 
-<br/>
+📍 Nashik, Maharashtra, India &nbsp;|&nbsp; 📧 yashlodam03@gmail.com &nbsp;|&nbsp; 📱 +91-9665774924
 
-![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
-![Spring Boot](https://img.shields.io/badge/Spring%20Boot-6DB33F?style=flat-square&logo=spring-boot&logoColor=white)
-![Spring Security](https://img.shields.io/badge/Spring%20Security-6DB33F?style=flat-square&logo=spring-security&logoColor=white)
-![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-![Spring AI](https://img.shields.io/badge/Spring%20AI-6DB33F?style=flat-square&logo=spring&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Profile-0A66C2?style=flat&logo=linkedin&logoColor=white)](#)
+[![GitHub](https://img.shields.io/badge/GitHub-Profile-181717?style=flat&logo=github&logoColor=white)](#)
+[![LeetCode](https://img.shields.io/badge/LeetCode-Profile-FFA116?style=flat&logo=leetcode&logoColor=white)](#)
 
-<br/>
+</div>
 
-## 👨‍💻 About Me
+---
 
-I'm a Computer Engineering student at SPPU, graduating in 2027, with a primary focus on
-Java backend and full-stack development.
+## About Me
 
-I enjoy building applications from the ground up — designing APIs, modeling databases,
-implementing authentication and business logic, connecting frontend and backend systems,
-and integrating AI capabilities where they provide real value.
+I'm a Computer Engineering student and Java Full Stack Developer with two internships and hands-on experience building production-style web applications using **Java, Spring Boot, Spring Security, Spring Data JPA/Hibernate, and React.js**. I specialize in designing **JWT-secured REST APIs**, working with relational databases like **PostgreSQL and MySQL**, and integrating **Spring AI, LLMs, Retrieval-Augmented Generation (RAG), and vector embeddings** to power intelligent, context-aware application features.
 
-**What I'm focused on**
+My work spans the full development lifecycle — from database schema design and backend API development to responsive React.js frontends — with a strong foundation in **OOP, Data Structures & Algorithms, SQL, and Git-based collaborative workflows**.
 
-- ☕ Java & Spring Boot backend development
-- 🔐 Spring Security, JWT & OTP authentication
-- 🌐 REST API & full-stack application development
-- ⚛️ React.js frontend development
-- 🗄️ PostgreSQL, MySQL & MariaDB
-- 🤖 Spring AI, RAG & LLM integrations
-- 🧩 Microservices & distributed systems
-- 🏗️ System design & scalable backend architecture
-- 🧠 Data Structures & Algorithms
+- 🎓 B.E. in Computer Engineering, Late G. N. Sapkal College of Engineering, Nashik — CGPA: **9.00/10** (Expected 2027)
+- 💼 Two Software Developer internships focused on full-stack Java development
+- 🤖 Differentiator: hands-on experience integrating Generative AI (Spring AI, RAG, LLMs) into real applications
+- 🧩 150+ problems solved on LeetCode across Arrays, Strings, Trees, and Dynamic Programming
 
-<br/>
+---
 
-## 🛠️ Tech Stack
+## Tech Stack
+
+<table>
+<tr>
+<td valign="top" width="50%">
 
 **Languages**
-`Java` `JavaScript` `C++` `SQL`
+![Java](https://img.shields.io/badge/Java-ED8B00?style=flat&logo=openjdk&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
+![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat&logo=postgresql&logoColor=white)
 
 **Backend**
-`Spring Boot` `Spring MVC` `Spring Data JPA` `Hibernate`
-`Spring Security` `JWT` `OTP` `REST APIs` `Maven`
+![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat&logo=springboot&logoColor=white)
+![Spring Security](https://img.shields.io/badge/Spring_Security-6DB33F?style=flat&logo=spring&logoColor=white)
+![Hibernate](https://img.shields.io/badge/Hibernate-59666C?style=flat&logo=hibernate&logoColor=white)
+
+Spring MVC · Spring Data JPA · REST APIs · JWT Authentication · JDBC · Maven
+
+</td>
+<td valign="top" width="50%">
 
 **Frontend**
-`React.js` `JavaScript` `HTML5` `CSS3`
-`Tailwind CSS` `Bootstrap` `jQuery`
+![React](https://img.shields.io/badge/React-61DAFB?style=flat&logo=react&logoColor=black)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=flat&logo=tailwind-css&logoColor=white)
+![Bootstrap](https://img.shields.io/badge/Bootstrap-7952B3?style=flat&logo=bootstrap&logoColor=white)
+
+HTML5 · CSS3
 
 **Databases**
-`PostgreSQL` `MySQL` `MariaDB`
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat&logo=postgresql&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat&logo=mysql&logoColor=white)
 
-**AI / GenAI**
-`Spring AI` `Google Gemini` `RAG`
-`Vector Stores` `Embeddings` `Chat Memory` `Tool Calling`
+Database Design · CRUD Operations
 
-**Tools**
-`Git` `GitHub` `Docker` `Postman` `VS Code` `Eclipse / STS`
+</td>
+</tr>
+<tr>
+<td valign="top" width="50%">
 
-<br/>
+**AI / Generative AI**
+![Spring AI](https://img.shields.io/badge/Spring_AI-6DB33F?style=flat&logo=spring&logoColor=white)
 
-## 🚀 Featured Projects
+LLM Integration · Retrieval-Augmented Generation (RAG) · Vector Embeddings · Vector Databases
 
-### 🛒 ShopSphere — Multi-Vendor E-Commerce Platform
+</td>
+<td valign="top" width="50%">
 
-A full-stack multi-vendor e-commerce platform designed around separate customer and
-seller workflows, with a layered Spring Boot backend and React frontend.
+**Tools & Practices**
+![Git](https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
+![Postman](https://img.shields.io/badge/Postman-FF6C37?style=flat&logo=postman&logoColor=white)
 
-**Key Engineering Areas**
+Docker Compose · Agile/Scrum
 
-- Customer and seller authentication
-- JWT-based authorization
-- OTP verification
-- Seller and business management
-- Product and category management
-- Product search and filtering
-- Price, size, color and category filtering
-- Cart and cart-item management
-- Order and order-item processing
-- Seller-specific order processing
-- Razorpay payment integration
-- Cash-on-delivery workflow
-- PostgreSQL persistence
+</td>
+</tr>
+</table>
 
-**Architecture**
-
-```text
-┌──────────────────────┐
-│      React.js        │
-│  Redux · Tailwind    │
-└──────────┬───────────┘
-           │
-           ▼
-┌──────────────────────┐
-│      REST APIs       │
-│     Spring Boot      │
-└──────────┬───────────┘
-           │
-           ▼
-┌──────────────────────┐
-│    Service Layer     │
-│   Business Logic     │
-└──────────┬───────────┘
-           │
-           ▼
-┌──────────────────────┐
-│  Repository / JPA    │
-│      Hibernate       │
-└──────────┬───────────┘
-           │
-           ▼
-┌──────────────────────┐
-│     PostgreSQL       │
-└──────────────────────┘
-```
-
-**Stack:** `Java` · `Spring Boot` · `Spring Security` · `JWT` · `React` · `Redux Toolkit` · `PostgreSQL` · `JPA/Hibernate`
+**CS Fundamentals:** Object-Oriented Programming (OOP) · Data Structures & Algorithms (DSA) · Collections Framework · Exception Handling · MVC Architecture
 
 ---
 
-### 🤖 AI HelpDesk — AI-Powered Support System
+## Featured Projects
 
-A full-stack customer support platform where an AI assistant can interact with
-application data through Spring AI tool calling. The goal is to move beyond a simple
-chatbot and allow the model to perform meaningful application operations through
-controlled backend tools.
+### AI-Powered Recruitment & Career Platform
+`Java` `Spring Boot` `PostgreSQL` `React.js` `Spring AI` `Docker Compose`
+*Mar 2026 – May 2026*
 
-**Key Engineering Areas**
+A full-stack recruitment platform with separate Applicant and Recruiter workflows, built to streamline the hiring process end-to-end.
 
-- Conversational AI support
-- Persistent conversation memory
-- Ticket creation through AI tools
-- Ticket retrieval
-- Ticket updates
-- Database-aware AI interactions
-- Spring AI tool calling
-- Google Gemini integration
-- React chat interface
-- PostgreSQL persistence
+- Exposed **JWT-secured REST APIs** backed by PostgreSQL via Spring Data JPA/Hibernate
+- Integrated **Spring AI with Google Gemini** to build an AI Resume Analyzer (ATS scoring, gap detection) and an AI Resume Builder
+- Built a **hybrid job-matching engine** combining deterministic scoring with AI semantic relevance
+- Developed an **AI Mock Interview module** with AI-evaluated feedback and a recruiter-facing Applicant Tracking System
+- Implemented **real-time messaging** using Spring WebSocket/STOMP; containerized services with Docker Compose
 
-**Architecture**
-
-```text
-┌──────────────────────┐
-│    React Chat UI     │
-└──────────┬───────────┘
-           │
-           ▼
-┌──────────────────────┐
-│     Spring Boot      │
-│      ChatClient      │
-└──────────┬───────────┘
-           │
-           ▼
-┌──────────────────────┐
-│      Spring AI       │
-│   Chat Memory + AI   │
-└──────────┬───────────┘
-           │
-           ▼
-┌──────────────────────┐
-│    Google Gemini     │
-└──────────┬───────────┘
-           │
-       Tool Calling
-           │
-           ▼
-┌──────────────────────┐
-│    Ticket Service    │
-└──────────┬───────────┘
-           │
-           ▼
-┌──────────────────────┐
-│     PostgreSQL       │
-└──────────────────────┘
-```
-
-**Stack:** `Java` · `Spring Boot` · `Spring AI` · `Google Gemini` · `React` · `Tailwind CSS` · `PostgreSQL`
+**Links:** *Add Live Demo / GitHub repository link(s) here*
 
 ---
 
-### 🧠 Spring RAG — Retrieval-Augmented Generation
+### Multi-Vendor E-Commerce Platform
+`Java` `Spring Boot` `React.js` `MySQL` `Spring Security` `Razorpay`
+*Sep 2025 – Feb 2026*
 
-A Spring Boot application exploring how Retrieval-Augmented Generation can ground LLM
-responses in application-specific knowledge. Instead of relying only on the model's
-internal knowledge, the system retrieves relevant information from a vector store and
-provides that context to the LLM.
+A multi-vendor e-commerce platform supporting independent Customer, Seller, and Admin portals.
 
-**Key Concepts**
+- Integrated a **React.js frontend** with **Spring Boot REST APIs** and independent vendor product catalogs
+- Implemented **cart, wishlist, and order management** workflows with secure checkout via **Razorpay** payment gateway integration
+- Built **seller and admin dashboards** for inventory and order tracking
+- Integrated a **Spring AI-powered chatbot** to handle common customer support queries
 
-- Document ingestion
-- Embedding generation
-- Vector storage
-- Similarity search
-- RAG pipelines
-- Chat memory
-- Conversation IDs
-- `ChatClient`
-- `MessageChatMemoryAdvisor`
-- `QuestionAnswerAdvisor`
-- VectorStore integration
-- Dockerized MariaDB vector infrastructure
+**Links:** *Add Live Demo / GitHub repository link(s) here*
 
-**Architecture**
-
-```text
-              User
-                │
-                ▼
-        ┌───────────────┐
-        │  Spring Boot  │
-        └───────┬───────┘
-                │
-                ▼
-          ┌───────────┐
-          │ ChatClient│
-          └─────┬─────┘
-                │
-                ▼
-          ┌───────────┐
-          │ RAG Layer │
-          └─────┬─────┘
-                │
-                ▼
-        ┌───────────────┐
-        │ Vector Store  │
-        │    MariaDB    │
-        └───────┬───────┘
-                │
-         Similarity Search
-                │
-                ▼
-        Relevant Documents
-                │
-                ▼
-             LLM
-                │
-                ▼
-            Response
-```
-
-**Stack:** `Spring Boot` · `Spring AI` · `Google Gemini` · `RAG` · `MariaDB Vector Store` · `Docker`
+> **Note:** Add your actual Live Demo, Frontend, and Backend repository links above once available — this keeps the profile accurate and recruiter-ready.
 
 ---
 
-### 💼 Velora — AI-Powered Job Platform
+## Experience
 
-A full-stack job platform focused on job discovery, recruiter workflows, candidate
-profiles, and modern user experience.
+**Software Developer Intern** — Manasvi Tech Solutions Pvt. Ltd., Nashik *(On-site)*
+`Dec 2025 – Feb 2026`
+- Developed full-stack application modules using Java, Spring Boot, and React.js with Tailwind CSS/Bootstrap
+- Secured REST APIs with Spring Security and role-based access control; optimized Spring Data JPA queries for CRUD operations
+- Collaborated in Agile sprints using Git, GitHub, Maven, and Postman
+- Integrated Spring AI capabilities — LLM-based responses, RAG, and vector embeddings — for context-aware features
 
-**Key Areas**
+**Software Developer Intern** — Humming Byte Technologies, Nashik *(On-site)*
+`Jan 2025 – Jun 2025`
+- Built backend modules using Java, Spring Boot, Spring MVC, and Hibernate with clean MVC separation of concerns
+- Implemented authentication and multi-role authorization workflows using Spring Security
+- Modeled relational database schemas and built CRUD workflows with PostgreSQL, MySQL, and JDBC
 
-- Job discovery and search
-- Location-based search
-- Candidate workflows
-- Recruiter workflows
-- Profile management
-- Resume-oriented features
-- Modern responsive interface
-- Component-based React architecture
-- AI-powered feature exploration
+## Education
 
-**Frontend Architecture**
+**Bachelor of Engineering (B.E.), Computer Engineering**
+Late G. N. Sapkal College of Engineering, Nashik — *Expected 2027*
+CGPA: **9.00 / 10**
 
-```text
-React
- │
- ├── Mantine UI
- ├── Tailwind CSS
- ├── Framer Motion
- └── React Router
- │
- ▼
-REST APIs
- │
- ▼
-Spring Boot
- │
- ▼
-PostgreSQL
-```
+---
 
-**Stack:** `React` · `Tailwind CSS` · `Mantine` · `Framer Motion` · `Java` · `Spring Boot` · `PostgreSQL`
+## Certifications & Achievements
 
-<br/>
+**Certifications**
+- Data Structures & Algorithms using Java — NPTEL
+- Programming in Java — Coding Seekho
+- Full Stack Development — Coding Seekho
 
-## 🏗️ Engineering Approach
+**Achievements**
+- 1st Rank, F.E. (Common) Examination (2023–24)
+- Winner, Web Development Competition — SKH TechnoFest 2026
+- Participant, Smart India Hackathon (SIH) & SunHacks 2026 International Agentic AI Hackathon
+- Solved 150+ problems on LeetCode across Arrays, Strings, Trees, and Dynamic Programming
 
-I try to approach projects as software systems, not just collections of features.
+---
 
-**Backend**
+## Current Focus
 
-```text
-Controller
-    ↓
-Service
-    ↓
-Repository
-    ↓
-Database
-```
+- Strengthening backend architecture and API design skills using Spring Boot and Spring Security
+- Exploring deeper integration of Generative AI (RAG, LLMs, vector embeddings) into full-stack applications
+- Building end-to-end projects that combine robust backend systems with polished React.js interfaces
+- Sharpening problem-solving skills through continued DSA practice
 
-**Core principles**
+---
 
-- Separation of concerns
-- Layered architecture
-- RESTful API design
-- Secure authentication and authorization
-- Database relationship modeling
-- Transaction management
-- Centralized exception handling
-- Validation
-- Reusable components
-- Maintainable code
-- Meaningful naming
-- Version control with Git
+## Connect With Me
 
-As I progress, I'm extending this foundation toward:
+[![Email](https://img.shields.io/badge/Email-yashlodam03%40gmail.com-D14836?style=flat&logo=gmail&logoColor=white)](mailto:yashlodam03@gmail.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat&logo=linkedin&logoColor=white)](#)
+[![GitHub](https://img.shields.io/badge/GitHub-Follow-181717?style=flat&logo=github&logoColor=white)](#)
+[![LeetCode](https://img.shields.io/badge/LeetCode-View_Profile-FFA116?style=flat&logo=leetcode&logoColor=white)](#)
 
-```text
-Monolith
-   ↓
-Modular Architecture
-   ↓
-Microservices
-   ↓
-Distributed Systems
-   ↓
-Scalable Architecture
-```
+---
 
-<br/>
+<div align="center">
 
-## 🤖 AI Engineering
+*Open to Java Full Stack Developer roles and opportunities to build impactful, AI-driven web applications.*
 
-My interest in AI is focused on integrating AI into real software systems, rather than
-treating an LLM as a standalone chatbot. I'm currently working with concepts including:
-
-- Retrieval-Augmented Generation
-- Vector search
-- Embeddings
-- Conversational memory
-- LLM tool calling
-- AI-assisted application workflows
-- Spring AI
-- Google Gemini
-- AI agents
-- AI-powered backend architecture
-
-The direction I'm exploring:
-
-```text
-LLM
- ↓
-Context
- ↓
-Retrieval
- ↓
-Tools
- ↓
-Application Data
- ↓
-Business Logic
- ↓
-Useful Software
-```
-
-<br/>
-
-## 📚 Currently Learning
-
-**☕ Java & Spring**
-- Advanced Java
-- Spring Boot
-- Spring Security
-- JPA & Hibernate
-- Transactions
-- Validation
-- Microservices
-- Production-oriented backend development
-
-**🏗️ System Design**
-- Scalability
-- Load balancing
-- Caching
-- API gateways
-- Service discovery
-- Message queues
-- Distributed systems
-- Fault tolerance
-- Database design
-- Observability
-
-**🤖 AI Engineering**
-- Advanced RAG architectures
-- AI agents
-- Tool-based AI systems
-- AI application architecture
-- LLM integration patterns
-
-<br/>
-
-## 🧠 Problem Solving
-
-I practice Data Structures & Algorithms in Java to strengthen problem-solving and
-algorithmic thinking.
-
-Current areas include:
-`Arrays` · `Strings` · `Hashing` · `Searching` · `Sorting` · `Linked Lists` · `Stacks` · `Queues` · `Trees` · `Graphs` · `Dynamic Programming`
-
-**LeetCode:** 57+ problems solved · 68%+ acceptance rate · 20-day maximum streak
-
-<br/>
-
-## 🎓 Education
-
-**B.E. Computer Engineering**
-Savitribai Phule Pune University (SPPU)
-Late G. N. Sapkal College of Engineering, Nashik
-Expected Graduation: 2027
-
-<br/>
-
-## 🏆 Certifications
-
-- Google Cloud Arcade Facilitator
-- NPTEL Certification
-- Internship Studio Certification
-
-<br/>
-
-## 📊 GitHub Activity
-
-<p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=yashlodam&show_icons=true&theme=default&hide_border=true&count_private=true" />
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=yashlodam&layout=compact&hide_border=true" />
-</p>
-
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=yashlodam&hide_border=true" />
-</p>
-
-<br/>
-
-## 🌐 Connect With Me
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](YOUR_LINKEDIN_URL)
-[![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=flat-square&logo=vercel&logoColor=white)](YOUR_PORTFOLIO_URL)
-[![Email](https://img.shields.io/badge/Email-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:YOUR_EMAIL_ADDRESS)
-
-<br/>
-
-<p align="center"><sub>Open to full-time Java Full Stack Developer roles.</sub></p>
+</div>
